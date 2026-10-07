@@ -1,0 +1,21 @@
+num1=int(input("enter a number:"))
+num2=int(input("enter a number:"))
+print("addition:", num1+num2)
+print("substraction:", num1-num2)
+print("multiplication:", num1*num2)
+print("devision:", num1//num2)
+print ("mod:", num1%num2)
+num1+=1
+print("num1 after increament:", num1)
+num2+=1
+print("num2 after increament:", num2)
+num1-=1
+print("num1 after decreament:", num1)
+num2-=1
+print("num2 after decreament:", num2)
+print("equal to:",num1==num2)
+print("not equal to:", num1!=num2)
+print("gerater then or equal to:", num1>=num2)
+print("smaller then or equal to:", num1<=num2)
+print("greater then:", num1>num2)
+print("smaller then:", num1<num2) 
